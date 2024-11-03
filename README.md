@@ -11,6 +11,25 @@
 Overview
 ========
 
+This project showcases a scalable data pipeline using Snowflake, dbt, and Apache Airflow to deliver business-ready insights and reliable analytics.
+
+### Key Components
+
+1. Snowflake Role-Based Access Control (RBAC):
+Configured Snowflake warehouses, databases, and schema to optimize data security and performance. Defined roles for users to enforce fine-grained data access.
+
+2. dbt Project Configuration:
+Built source, staging, and analytics models, transforming raw data into analytics-ready formats. Defined fact tables and data marts to support self-service analytics, ensuring clean, accessible data for each department.
+
+3. Business Intelligence:
+Created aggregated and curated tables to support business intelligence and reporting, enabling stakeholders to easily access key metrics and make data-driven decisions.
+
+4. Orchestration with Apache Airflow:
+Automated the ETL pipeline with Airflow, managing dependencies and scheduling dbt models to ensure timely, reliable data updates. Integrated monitoring to maintain data quality and pipeline reliability.
+Results
+
+This architecture enables secure, efficient data workflows and provides high-quality insights for decision-making. Snowflake, dbt, and Airflow together create a resilient and agile data pipeline, reflecting best practices in modern data engineering.
+
 Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
 
 Project Contents
